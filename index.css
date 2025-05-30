@@ -1,0 +1,131 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 7%; /* Dark theme for cards */
+    --card-foreground: 45 68% 60%; /* Gold text */
+
+    --popover: 0 0% 7%;
+    --popover-foreground: 45 68% 60%;
+
+    --primary: 45 68% 60%; /* Gold */
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 0 0% 16%; /* Dark gray */
+    --secondary-foreground: 45 68% 60%;
+
+    --muted: 0 0% 10%;
+    --muted-foreground: 45 68% 60%;
+
+    --accent: 0 0% 16%;
+    --accent-foreground: 45 68% 60%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 210 40% 98%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 210 40% 98%;
+
+    --border: 0 0% 16%;
+    --input: 0 0% 16%;
+    --ring: 45 68% 60%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 0 0% 7%;
+    --foreground: 45 68% 60%;
+
+    --card: 0 0% 7%;
+    --card-foreground: 45 68% 60%;
+
+    --popover: 0 0% 7%;
+    --popover-foreground: 45 68% 60%;
+
+    --primary: 45 68% 60%;
+    --primary-foreground: 0 0% 7%;
+
+    --secondary: 0 0% 16%;
+    --secondary-foreground: 45 68% 60%;
+
+    --muted: 0 0% 16%;
+    --muted-foreground: 45 68% 60%;
+
+    --accent: 0 0% 16%;
+    --accent-foreground: 45 68% 60%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 210 40% 98%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 210 40% 98%;
+
+    --border: 0 0% 16%;
+    --input: 0 0% 16%;
+    --ring: 45 68% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.arabic {
+  font-family: 'Tajawal', sans-serif;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.animate-blink {
+  animation: blink 1.5s infinite;
+}
+
+.touch-button {
+  @apply px-6 py-3 rounded-md text-lg font-medium transition-colors;
+}
+
+.number-pad-button {
+  @apply h-14 w-14 flex items-center justify-center rounded-lg text-2xl font-semibold bg-pos-darkgray hover:bg-pos-lightgray text-pos-gold active:bg-pos-lightgray;
+}
+
+.pos-button {
+  @apply flex items-center justify-center p-3 bg-pos-darkgray hover:bg-pos-lightgray text-pos-gold rounded-lg transition-colors;
+}
+
+.pos-icon-button {
+  @apply flex flex-col items-center justify-center gap-1 p-3 bg-pos-darkgray hover:bg-pos-lightgray text-pos-gold rounded-lg transition-colors;
+}
+
+.pos-action-button {
+  @apply flex items-center justify-center p-3 bg-pos-darkgray hover:bg-pos-lightgray text-pos-gold rounded-lg transition-colors;
+}
+
+.pos-primary-button {
+  @apply flex items-center justify-center p-3 bg-pos-gold hover:bg-amber-500 text-pos-dark font-semibold rounded-lg transition-colors;
+}
