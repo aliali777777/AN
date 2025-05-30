@@ -1,0 +1,14 @@
+Assistant checkpoint: ترجمة شاشة انتظار العملاء بالكامل
+
+Assistant generated file changes:
+- src/components/queue/OrderQueueDisplay.tsx: ترجمة صفحة شاشة الانتظار بالكامل
+- src/context/LanguageContext.tsx: إضافة الترجمات المفقودة لشاشة الانتظار, إضافة الترجمات الإنجليزية لشاشة الانتظار, إضافة الترجمات الفرنسية لشاشة الانتظار
+
+---
+
+User prompt:
+
+في صفحة شاشة الانتظار ترجمها لو سمحت
+
+Replit-Commit-Author: Assistant
+Replit-Commit-Session-Id: caec87e6-bbfd-4426-8b9c-241f6fe25f40

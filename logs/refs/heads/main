@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 6a87cc657b7eb0007d760afd9b365bb1908e5ad4 aliali777777 <nelly7jouni@gmail.com> 1748442809 +0000	branch: Created from origin/main
+6a87cc657b7eb0007d760afd9b365bb1908e5ad4 e45807dba6c97c3cec462b6ed18cc273061b9062 nelly7jouni <43227057-nelly7jouni@users.noreply.replit.com> 1748443308 +0000	commit: Checkpoint before assistant change: Enable the program to switch languages correctly using the settings button
+e45807dba6c97c3cec462b6ed18cc273061b9062 6f70beb1fd91a548f596070a57ec789a9a8e9030 aliali777777 <nelly7jouni@gmail.com> 1748445292 +0000	commit: Assistant checkpoint: Added French language support with complete translations
+6f70beb1fd91a548f596070a57ec789a9a8e9030 a4ca29baa95551900d786c91f42842fcf41b0fa0 aliali777777 <nelly7jouni@gmail.com> 1748445462 +0000	commit: Assistant checkpoint: Fix language switching and add complete translation support
+a4ca29baa95551900d786c91f42842fcf41b0fa0 94f2928ffe9a475685a6244bf3f5e789da521dae aliali777777 <nelly7jouni@gmail.com> 1748448665 +0000	commit: Assistant checkpoint: تطبيق نظام الترجمة على كامل التطبيق
+94f2928ffe9a475685a6244bf3f5e789da521dae 8cacee05bb43254af56795d23a39bf44552e1e51 aliali777777 <nelly7jouni@gmail.com> 1748448968 +0000	commit: Assistant checkpoint: Add translations for all app components
+8cacee05bb43254af56795d23a39bf44552e1e51 2424c302da1ee77a27801229075e3ff4d7c9c77f aliali777777 <nelly7jouni@gmail.com> 1748449343 +0000	commit: Assistant checkpoint: إضافة ترجمات شاملة لجميع النصوص في البرنامج
+2424c302da1ee77a27801229075e3ff4d7c9c77f 48d07f16584df5e727d6e5fa24f77e784c347d2f aliali777777 <nelly7jouni@gmail.com> 1748449666 +0000	commit: Assistant checkpoint: إضافة ترجمات شاملة لجميع عناصر البرنامج
+48d07f16584df5e727d6e5fa24f77e784c347d2f 9749f9c72ceda36804dee2bd7f7bc77ccac5250d aliali777777 <nelly7jouni@gmail.com> 1748450236 +0000	commit: Assistant checkpoint: ترجمة جميع النصوص المتبقية في كافة الصفحات
+9749f9c72ceda36804dee2bd7f7bc77ccac5250d 40510b88919381910857042da5cf7dd972c18ec1 aliali777777 <nelly7jouni@gmail.com> 1748450379 +0000	commit: Assistant checkpoint: إصلاح أخطاء التحليل النحوي في الكود
+40510b88919381910857042da5cf7dd972c18ec1 1a4d9d7ba7de4a5ada50bee0cb6b971e05f7226f aliali777777 <nelly7jouni@gmail.com> 1748450446 +0000	commit: Assistant checkpoint: إصلاح أخطاء التحليل النحوي في CashierPage
+1a4d9d7ba7de4a5ada50bee0cb6b971e05f7226f 434250e82900201691b66e79f8f79c88c42d075b aliali777777 <nelly7jouni@gmail.com> 1748451243 +0000	commit: Assistant checkpoint: ترجمة شاشة انتظار العملاء بالكامل
